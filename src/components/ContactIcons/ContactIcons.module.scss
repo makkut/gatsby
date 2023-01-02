@@ -1,0 +1,32 @@
+.iconBlock {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fefe00;
+  width: 77px;
+  height: 214px;
+  right: 0;
+  color: #ff0103;;
+  padding: 1% 0px;
+  font-size: 270%;
+  z-index: 2;
+  top: 28%;
+}
+.a{
+  cursor: pointer;
+  color: #ff0103;
+}
+@media only screen and (min-width: 2800px) {
+  .iconBlock {
+    width: 108px;
+    height: 356px;
+    font-size: 211%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .iconBlock {
+    display: none;
+  }
+}

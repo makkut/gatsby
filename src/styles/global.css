@@ -13,3 +13,10 @@ body {
   overflow-x: hidden;
   font-size: 18px;
 }
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: #ff0103 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #ff0103 !important;
+}
